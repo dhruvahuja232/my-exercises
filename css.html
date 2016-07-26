@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#header {
+     border-bottom-style: solid;
+	 border-color: #db2927;
+	 border-width: 2px;
+     margin: 0px;
+}
+#insideheader p {
+    text-align: right;
+    font-family: Verdana,Segoe,sans-serif;
+    font-size: 13px;
+	margin: 0px;
+}
+#heading {
+     color: #2c286d;
+     font-family: Verdana,Segoe,sans-serif;
+     font-size: 18px;
+     text-align: center;
+}
+#box {
+         background-color: #ececec;
+         border: #bcbcbc;
+         width: 500px;
+         padding-top: 20px;
+         padding-bottom: 20px;
+         padding-left: 25px;
+         padding-right: 25px;
+         margin-right: 100px;
+         margin-left: 400px;
+}
+
+label {
+        text-aling: right;
+        font-family: Verdana,Segoe,sans-serif;
+        font-size: 14px;
+        color: #2c286d;
+}
+
+input[type=text], select {
+        background-color: white;
+        border: #b9b9b9 1px solid;
+        width: 360px;
+        height: 25px;
+        box-sizing: border box;
+        float: right;
+}
+#pass {
+       background-color: white;
+        border: #b9b9b9 1px solid;
+        width: 360px;
+        height: 25px;
+        box-sizing: border box;
+        float: right;
+}
+#gen {
+        font-family: Verdana,Segoe,sans-serif;
+        font-size: 14px;
+        color: #6f6f6f;
+}
+#dob {
+     width: 50px;
+     font-family: Verdana,Segoe,sans-serif;
+     font-size: 13px;
+     color: 6f6f6f;
+     float: right;
+}
+#add {
+     background-color: white;
+     border: #b9b9b9 1px solid;
+     width: 360px;
+     height: 135px;
+     box-sizing: border box;
+     float: right;
+}
+input[type=submit] {
+     background-color: #dc2927;
+	 boder-color: #a10200;
+     color: white;
+	 width: 130px;
+	 height: 32px;
+	 text-align: center;
+     font-family: Verdana,Segoe,sans-serif;
+     float: center;
+}
+
+      
+</style>
+</head>
+<body>
+<div id="header">
+<img src="https://dl.dropboxusercontent.com/u/17934144/vtapp/vinsol-logo.png">
+<div id="insideheader">
+<p>Email us at: <span style="color:#045198"> sales@vinsol.com </span>
+&nbsp
+&nbsp
+Skype:<span style="color:#045198"> vinsol </span> </p>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="heading" name="heading";>
+<h> Please fill the form below </h>
+</div>
+<div id="box" name="box";>
+<form>
+<label for="fname">First Name:</label>
+<input type="text" id="fname" name="firstname">
+<br>
+<br>
+<label for="lname">Last Name:</label>
+<input type="text" id="lname" name="lastname">
+<br>
+<br>
+<label for="eaddress">Email Address:</label>
+<input type="text" id="eaddress" name="emailaddress">
+<br>
+<br> 
+<label for="pword">Password:</label>
+<input type="password" id="pass" pattern="\w{8}" title="8 character password">
+<br>
+<br>
+<label for="gen">Gender:</label>
+&nbsp
+&nbsp
+&nbsp
+&nbsp
+&nbsp
+&nbsp
+&nbsp
+&nbsp
+&nbsp
+<input type="radio" id="gen" name="gen" value="Male">Male
+<input type="radio" id="gen" name="gen" value="Female">Female
+<br>
+<br>
+<label for="dob">Date of Birth:</label>
+<div id="dob" name="dob">
+<select>
+  <option value="DD">DD</option>
+</select>
+<select>
+  <option value="MM">MM</option>
+</select>
+<select>
+  <option value="YY">YY</option>
+</select>  
+</div>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<label for="add">Address:</label>
+<input type="textarea" id="add" name="address">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<input type="submit" value="Submit">
+</div>
+</form>
+</div>
+</body>
+</html>
